@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="380" rx="12" fill="#090d16" />
+  
+  <!-- Header Bar -->
+  <rect width="600" height="42" rx="12" fill="#131b2e" />
+  <rect y="30" width="600" height="12" fill="#131b2e" />
+  <circle cx="24" cy="21" r="6" fill="#ef4444" />
+  <circle cx="44" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="64" cy="21" r="6" fill="#10b981" />
+  <text x="90" y="26" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13" font-weight="600">TaskMatrix Kanban</text>
+  <rect x="490" y="11" width="90" height="20" rx="10" fill="url(#p2Grad)" />
+  <text x="535" y="25" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">+ New Task</text>
+
+  <!-- Kanban Column 1: To Do -->
+  <rect x="25" y="65" width="170" height="295" rx="8" fill="#131b2e" />
+  <circle cx="45" cy="85" r="5" fill="#f59e0b" />
+  <text x="60" y="90" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">To Do</text>
+  <rect x="165" y="78" width="20" height="15" rx="4" fill="#1e293b" />
+  <text x="175" y="89" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">3</text>
+  <!-- Card 1 -->
+  <rect x="35" y="105" width="150" height="70" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <rect x="45" y="118" width="60" height="8" rx="3" fill="#ec4899" />
+  <text x="45" y="142" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="500">Design UI System</text>
+  <circle cx="165" cy="155" r="8" fill="#3b82f6" />
+  <!-- Card 2 -->
+  <rect x="35" y="185" width="150" height="70" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <rect x="45" y="198" width="50" height="8" rx="3" fill="#3b82f6" />
+  <text x="45" y="222" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="500">Database Schema</text>
+  <circle cx="165" cy="235" r="8" fill="#10b981" />
+
+  <!-- Kanban Column 2: In Progress -->
+  <rect x="215" y="65" width="170" height="295" rx="8" fill="#131b2e" />
+  <circle cx="235" cy="85" r="5" fill="#3b82f6" />
+  <text x="250" y="90" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">In Progress</text>
+  <rect x="355" y="78" width="20" height="15" rx="4" fill="#1e293b" />
+  <text x="365" y="89" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">2</text>
+  <!-- Card 3 -->
+  <rect x="225" y="105" width="150" height="85" rx="6" fill="#1e293b" stroke="#8b5cf6" stroke-width="1" />
+  <rect x="235" y="118" width="55" height="8" rx="3" fill="#8b5cf6" />
+  <text x="235" y="142" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="500">Auth &amp; JWT Flow</text>
+  <rect x="235" y="155" width="100" height="6" rx="3" fill="#334155" />
+  <rect x="235" y="155" width="65" height="6" rx="3" fill="#8b5cf6" />
+  <circle cx="355" cy="170" r="8" fill="#ec4899" />
+  <!-- Card 4 -->
+  <rect x="225" y="200" width="150" height="70" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+  <rect x="235" y="213" width="70" height="8" rx="3" fill="#10b981" />
+  <text x="235" y="237" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="500">API Documentation</text>
+  <circle cx="355" cy="250" r="8" fill="#f59e0b" />
+
+  <!-- Kanban Column 3: Completed -->
+  <rect x="405" y="65" width="170" height="295" rx="8" fill="#131b2e" />
+  <circle cx="425" cy="85" r="5" fill="#10b981" />
+  <text x="440" y="90" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Completed</text>
+  <rect x="545" y="78" width="20" height="15" rx="4" fill="#1e293b" />
+  <text x="555" y="89" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">5</text>
+  <!-- Card 5 -->
+  <rect x="415" y="105" width="150" height="70" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" />
+  <text x="425" y="135" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="500">Project Setup &amp; CI/CD</text>
+  <text x="425" y="155" fill="#10b981" font-family="system-ui, sans-serif" font-size="10">✓ Deployed to Vercel</text>
+  <!-- Card 6 -->
+  <rect x="415" y="185" width="150" height="70" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1" />
+  <text x="425" y="215" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="500">User Flow Diagrams</text>
+  <text x="425" y="235" fill="#10b981" font-family="system-ui, sans-serif" font-size="10">✓ Approved by Team</text>
+</svg>

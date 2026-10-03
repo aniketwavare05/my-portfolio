@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="50" fill="url(#bg2)"/>
+  <!-- Short hair & face -->
+  <path d="M33 38C33 28 40 22 50 22C60 22 67 28 67 38L67 46C67 55 59 62 50 62C41 62 33 55 33 46V38Z" fill="#18181B"/>
+  <circle cx="50" cy="45" r="15" fill="#FBCFE8"/>
+  <path d="M35 34C38 27 46 25 50 25C56 25 62 28 65 34C62 32 55 31 50 31C44 31 38 32 35 34Z" fill="#09090B"/>
+  <!-- Beard & features -->
+  <circle cx="45" cy="42" r="2" fill="#27272A"/>
+  <circle cx="55" cy="42" r="2" fill="#27272A"/>
+  <path d="M44 50C47 52 53 52 56 50" stroke="#09090B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M42 48C42 56 46 58 50 58C54 58 58 56 58 48" fill="#18181B"/>
+  <!-- Shoulders -->
+  <path d="M25 85C25 70 36 62 50 62C64 62 75 70 75 85" fill="#3B82F6"/>
+  <polygon points="46,62 50,70 54,62" fill="#FBCFE8"/>
+</svg>

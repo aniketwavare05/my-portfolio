@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="380" rx="12" fill="#0f172a" />
+  
+  <!-- Browser Chrome / Header -->
+  <rect width="600" height="42" rx="12" fill="#1e293b" />
+  <rect y="30" width="600" height="12" fill="#1e293b" />
+  <circle cx="24" cy="21" r="6" fill="#ef4444" />
+  <circle cx="44" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="64" cy="21" r="6" fill="#10b981" />
+  <rect x="90" y="11" width="300" height="20" rx="6" fill="#0f172a" />
+  <text x="105" y="25" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">https://shopflow-app.demo</text>
+
+  <!-- Sidebar -->
+  <rect x="20" y="60" width="110" height="300" rx="8" fill="#1e293b" />
+  <rect x="35" y="80" width="80" height="12" rx="4" fill="#3b82f6" opacity="0.8" />
+  <rect x="35" y="110" width="65" height="10" rx="4" fill="#475569" />
+  <rect x="35" y="135" width="75" height="10" rx="4" fill="#475569" />
+  <rect x="35" y="160" width="55" height="10" rx="4" fill="#475569" />
+  <rect x="35" y="185" width="70" height="10" rx="4" fill="#475569" />
+
+  <!-- Main Content Banner -->
+  <rect x="150" y="60" width="430" height="110" rx="8" fill="url(#p1Grad)" />
+  <text x="175" y="105" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">Summer Tech Sale</text>
+  <text x="175" y="130" fill="#93c5fd" font-family="system-ui, sans-serif" font-size="13">Up to 40% off the latest accessories &amp; gear</text>
+  <rect x="175" y="142" width="90" height="18" rx="5" fill="#ffffff" />
+  <text x="220" y="155" fill="#1d4ed8" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Shop Now</text>
+
+  <!-- Product Cards Grid -->
+  <rect x="150" y="190" width="130" height="170" rx="8" fill="#1e293b" />
+  <rect x="160" y="200" width="110" height="85" rx="6" fill="#334155" />
+  <circle cx="215" cy="242" r="22" fill="#3b82f6" opacity="0.4" />
+  <rect x="160" y="295" width="75" height="10" rx="3" fill="#cbd5e1" />
+  <rect x="160" y="315" width="45" height="10" rx="3" fill="#38bdf8" />
+  <rect x="230" y="325" width="40" height="22" rx="4" fill="#3b82f6" />
+  <text x="250" y="340" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">+</text>
+
+  <rect x="300" y="190" width="130" height="170" rx="8" fill="#1e293b" />
+  <rect x="310" y="200" width="110" height="85" rx="6" fill="#334155" />
+  <circle cx="365" cy="242" r="22" fill="#10b981" opacity="0.4" />
+  <rect x="310" y="295" width="80" height="10" rx="3" fill="#cbd5e1" />
+  <rect x="310" y="315" width="50" height="10" rx="3" fill="#38bdf8" />
+  <rect x="380" y="325" width="40" height="22" rx="4" fill="#3b82f6" />
+  <text x="400" y="340" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">+</text>
+
+  <rect x="450" y="190" width="130" height="170" rx="8" fill="#1e293b" />
+  <rect x="460" y="200" width="110" height="85" rx="6" fill="#334155" />
+  <circle cx="515" cy="242" r="22" fill="#f59e0b" opacity="0.4" />
+  <rect x="460" y="295" width="70" height="10" rx="3" fill="#cbd5e1" />
+  <rect x="460" y="315" width="40" height="10" rx="3" fill="#38bdf8" />
+  <rect x="530" y="325" width="40" height="22" rx="4" fill="#3b82f6" />
+  <text x="550" y="340" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">+</text>
+</svg>

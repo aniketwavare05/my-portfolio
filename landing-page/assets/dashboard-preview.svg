@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" width="880" height="520" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="db-bg" x1="0" y1="0" x2="880" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="accent-cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="accent-purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="accent-emerald" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Browser Window Frame -->
+  <rect x="10" y="10" width="860" height="500" rx="16" fill="url(#db-bg)" stroke="#334155" stroke-width="2" filter="url(#card-shadow)"/>
+  
+  <!-- Window Top Bar -->
+  <rect x="10" y="10" width="860" height="42" rx="16" fill="#1E293B"/>
+  <rect x="10" y="40" width="860" height="12" fill="#1E293B"/>
+  <line x1="10" y1="52" x2="870" y2="52" stroke="#334155" stroke-width="1"/>
+  
+  <!-- Window Controls -->
+  <circle cx="34" cy="31" r="5.5" fill="#EF4444"/>
+  <circle cx="52" cy="31" r="5.5" fill="#F59E0B"/>
+  <circle cx="70" cy="31" r="5.5" fill="#10B981"/>
+  
+  <!-- Window URL Pill -->
+  <rect x="280" y="20" width="320" height="22" rx="6" fill="#0F172A" stroke="#334155"/>
+  <text x="440" y="35" text-anchor="middle" fill="#94A3B8" font-family="monospace" font-size="11">app.nexusflow.io/pipelines/prod-pipeline-01</text>
+  
+  <!-- Sidebar Navigation Mockup -->
+  <rect x="10" y="52" width="180" height="458" fill="#090D16" opacity="0.6"/>
+  <line x1="190" y1="52" x2="190" y2="510" stroke="#1E293B" stroke-width="1"/>
+  
+  <!-- Sidebar items -->
+  <rect x="26" y="75" width="148" height="28" rx="6" fill="#312E81"/>
+  <text x="56" y="93" fill="#A5B4FC" font-family="sans-serif" font-size="12" font-weight="bold">Pipelines</text>
+  <rect x="36" y="85" width="10" height="8" rx="2" fill="#818CF8"/>
+  
+  <text x="56" y="130" fill="#64748B" font-family="sans-serif" font-size="12">Deployments</text>
+  <circle cx="41" cy="126" r="4" fill="#475569"/>
+
+  <text x="56" y="165" fill="#64748B" font-family="sans-serif" font-size="12">Integrations</text>
+  <circle cx="41" cy="161" r="4" fill="#475569"/>
+
+  <text x="56" y="200" fill="#64748B" font-family="sans-serif" font-size="12">Security Audit</text>
+  <circle cx="41" cy="196" r="4" fill="#475569"/>
+
+  <text x="56" y="235" fill="#64748B" font-family="sans-serif" font-size="12">Settings</text>
+  <circle cx="41" cy="231" r="4" fill="#475569"/>
+
+  <!-- System Healthy Badge in Sidebar -->
+  <rect x="24" y="445" width="152" height="44" rx="8" fill="#132338" stroke="#0284C7" stroke-width="0.8"/>
+  <circle cx="38" cy="467" r="4" fill="#10B981"/>
+  <text x="50" y="464" fill="#F8FAFC" font-family="sans-serif" font-size="11" font-weight="600">Clusters Active</text>
+  <text x="50" y="478" fill="#38BDF8" font-family="monospace" font-size="10">99.998% Uptime</text>
+
+  <!-- Main Canvas Area -->
+  <!-- Top Stat Row -->
+  <rect x="210" y="70" width="195" height="74" rx="10" fill="url(#card-grad)" stroke="#334155"/>
+  <text x="226" y="93" fill="#94A3B8" font-family="sans-serif" font-size="11">THROUGHPUT</text>
+  <text x="226" y="122" fill="#F8FAFC" font-family="sans-serif" font-size="20" font-weight="bold">1.48M <tspan fill="#34D399" font-size="12">req/s</tspan></text>
+  
+  <rect x="420" y="70" width="195" height="74" rx="10" fill="url(#card-grad)" stroke="#334155"/>
+  <text x="436" y="93" fill="#94A3B8" font-family="sans-serif" font-size="11">GLOBAL LATENCY</text>
+  <text x="436" y="122" fill="#38BDF8" font-family="sans-serif" font-size="20" font-weight="bold">11.4 <tspan fill="#94A3B8" font-size="12">ms</tspan></text>
+
+  <rect x="630" y="70" width="220" height="74" rx="10" fill="url(#card-grad)" stroke="#334155"/>
+  <text x="646" y="93" fill="#94A3B8" font-family="sans-serif" font-size="11">ACTIVE AGENTS</text>
+  <text x="646" y="122" fill="#C084FC" font-family="sans-serif" font-size="20" font-weight="bold">24 Nodes <tspan fill="#34D399" font-size="11">● Active</tspan></text>
+
+  <!-- Interactive Visual Workflow Canvas -->
+  <rect x="210" y="160" width="640" height="330" rx="12" fill="#0B1120" stroke="#1E293B"/>
+
+  <!-- Grid Dots Pattern in Canvas -->
+  <g opacity="0.18" fill="#94A3B8">
+    <circle cx="230" cy="180" r="1.5"/><circle cx="270" cy="180" r="1.5"/><circle cx="310" cy="180" r="1.5"/><circle cx="350" cy="180" r="1.5"/><circle cx="390" cy="180" r="1.5"/><circle cx="430" cy="180" r="1.5"/><circle cx="470" cy="180" r="1.5"/><circle cx="510" cy="180" r="1.5"/><circle cx="550" cy="180" r="1.5"/><circle cx="590" cy="180" r="1.5"/><circle cx="630" cy="180" r="1.5"/><circle cx="670" cy="180" r="1.5"/><circle cx="710" cy="180" r="1.5"/><circle cx="750" cy="180" r="1.5"/><circle cx="790" cy="180" r="1.5"/><circle cx="830" cy="180" r="1.5"/>
+    <circle cx="230" cy="220" r="1.5"/><circle cx="270" cy="220" r="1.5"/><circle cx="310" cy="220" r="1.5"/><circle cx="350" cy="220" r="1.5"/><circle cx="390" cy="220" r="1.5"/><circle cx="430" cy="220" r="1.5"/><circle cx="470" cy="220" r="1.5"/><circle cx="510" cy="220" r="1.5"/><circle cx="550" cy="220" r="1.5"/><circle cx="590" cy="220" r="1.5"/><circle cx="630" cy="220" r="1.5"/><circle cx="670" cy="220" r="1.5"/><circle cx="710" cy="220" r="1.5"/><circle cx="750" cy="220" r="1.5"/><circle cx="790" cy="220" r="1.5"/><circle cx="830" cy="220" r="1.5"/>
+    <circle cx="230" cy="260" r="1.5"/><circle cx="270" cy="260" r="1.5"/><circle cx="310" cy="260" r="1.5"/><circle cx="350" cy="260" r="1.5"/><circle cx="390" cy="260" r="1.5"/><circle cx="430" cy="260" r="1.5"/><circle cx="470" cy="260" r="1.5"/><circle cx="510" cy="260" r="1.5"/><circle cx="550" cy="260" r="1.5"/><circle cx="590" cy="260" r="1.5"/><circle cx="630" cy="260" r="1.5"/><circle cx="670" cy="260" r="1.5"/><circle cx="710" cy="260" r="1.5"/><circle cx="750" cy="260" r="1.5"/><circle cx="790" cy="260" r="1.5"/><circle cx="830" cy="260" r="1.5"/>
+    <circle cx="230" cy="300" r="1.5"/><circle cx="270" cy="300" r="1.5"/><circle cx="310" cy="300" r="1.5"/><circle cx="350" cy="300" r="1.5"/><circle cx="390" cy="300" r="1.5"/><circle cx="430" cy="300" r="1.5"/><circle cx="470" cy="300" r="1.5"/><circle cx="510" cy="300" r="1.5"/><circle cx="550" cy="300" r="1.5"/><circle cx="590" cy="300" r="1.5"/><circle cx="630" cy="300" r="1.5"/><circle cx="670" cy="300" r="1.5"/><circle cx="710" cy="300" r="1.5"/><circle cx="750" cy="300" r="1.5"/><circle cx="790" cy="300" r="1.5"/><circle cx="830" cy="300" r="1.5"/>
+    <circle cx="230" cy="340" r="1.5"/><circle cx="270" cy="340" r="1.5"/><circle cx="310" cy="340" r="1.5"/><circle cx="350" cy="340" r="1.5"/><circle cx="390" cy="340" r="1.5"/><circle cx="430" cy="340" r="1.5"/><circle cx="470" cy="340" r="1.5"/><circle cx="510" cy="340" r="1.5"/><circle cx="550" cy="340" r="1.5"/><circle cx="590" cy="340" r="1.5"/><circle cx="630" cy="340" r="1.5"/><circle cx="670" cy="340" r="1.5"/><circle cx="710" cy="340" r="1.5"/><circle cx="750" cy="340" r="1.5"/><circle cx="790" cy="340" r="1.5"/><circle cx="830" cy="340" r="1.5"/>
+  </g>
+
+  <!-- Connecting bezier curves -->
+  <path d="M350 250 C400 250, 420 210, 460 210" stroke="#6366F1" stroke-width="2.5" stroke-dasharray="4 2" fill="none"/>
+  <path d="M350 250 C400 250, 420 310, 460 310" stroke="#38BDF8" stroke-width="2.5" fill="none"/>
+  <path d="M590 210 C630 210, 650 260, 680 260" stroke="#A855F7" stroke-width="2.5" fill="none"/>
+  <path d="M590 310 C630 310, 650 260, 680 260" stroke="#10B981" stroke-width="2.5" fill="none"/>
+
+  <!-- Pipeline Node 1: Trigger -->
+  <rect x="240" y="215" width="120" height="70" rx="8" fill="#1E293B" stroke="#6366F1" stroke-width="1.8"/>
+  <rect x="250" y="227" width="22" height="22" rx="4" fill="#4F46E5"/>
+  <path d="M256 238L266 238M262 234L266 238L262 242" stroke="#FFF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="280" y="238" fill="#F8FAFC" font-family="sans-serif" font-size="11" font-weight="600">Git Event</text>
+  <text x="280" y="252" fill="#94A3B8" font-family="sans-serif" font-size="9">main push</text>
+  <rect x="250" y="262" width="70" height="12" rx="3" fill="#065F46"/>
+  <text x="258" y="271" fill="#34D399" font-family="monospace" font-size="8">✓ triggered</text>
+
+  <!-- Pipeline Node 2A: Build & Test -->
+  <rect x="460" y="175" width="130" height="70" rx="8" fill="#1E293B" stroke="#8B5CF6" stroke-width="1.8"/>
+  <rect x="472" y="187" width="22" height="22" rx="4" fill="#7C3AED"/>
+  <path d="M480 193L486 203M486 193L480 203" stroke="#FFF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="502" y="198" fill="#F8FAFC" font-family="sans-serif" font-size="11" font-weight="600">CI Matrix</text>
+  <text x="502" y="212" fill="#94A3B8" font-family="sans-serif" font-size="9">14 test suites</text>
+  <rect x="472" y="222" width="76" height="12" rx="3" fill="#065F46"/>
+  <text x="480" y="231" fill="#34D399" font-family="monospace" font-size="8">✓ passed (34s)</text>
+
+  <!-- Pipeline Node 2B: Security Scan -->
+  <rect x="460" y="275" width="130" height="70" rx="8" fill="#1E293B" stroke="#0EA5E9" stroke-width="1.8"/>
+  <rect x="472" y="287" width="22" height="22" rx="4" fill="#0284C7"/>
+  <circle cx="483" cy="298" r="5" stroke="#FFF" stroke-width="1.5"/>
+  <text x="502" y="298" fill="#F8FAFC" font-family="sans-serif" font-size="11" font-weight="600">SAST Scan</text>
+  <text x="502" y="312" fill="#94A3B8" font-family="sans-serif" font-size="9">0 vulns found</text>
+  <rect x="472" y="322" width="68" height="12" rx="3" fill="#065F46"/>
+  <text x="480" y="331" fill="#34D399" font-family="monospace" font-size="8">✓ verified</text>
+
+  <!-- Pipeline Node 3: Multi-Region Deploy -->
+  <rect x="680" y="225" width="145" height="70" rx="8" fill="#1E293B" stroke="#10B981" stroke-width="1.8"/>
+  <rect x="692" y="237" width="22" height="22" rx="4" fill="#059669"/>
+  <path d="M699 248L707 248M703 242L707 248L703 254" stroke="#FFF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="722" y="248" fill="#F8FAFC" font-family="sans-serif" font-size="11" font-weight="600">Global Rollout</text>
+  <text x="722" y="262" fill="#94A3B8" font-family="sans-serif" font-size="9">32 Edge Regions</text>
+  <rect x="692" y="272" width="78" height="12" rx="3" fill="#064E3B"/>
+  <text x="700" y="281" fill="#34D399" font-family="monospace" font-size="8">● LIVE / READY</text>
+
+  <!-- Mini Stream Logs at Bottom of Canvas -->
+  <rect x="230" y="375" width="600" height="95" rx="8" fill="#030712" stroke="#1E293B"/>
+  <text x="245" y="396" fill="#38BDF8" font-family="monospace" font-size="10">[18:24:02.103] INF pipeline/orchestrator: Deployment target cluster syncd: us-east-1, eu-west-1, ap-south-1</text>
+  <text x="245" y="415" fill="#34D399" font-family="monospace" font-size="10">[18:24:02.348] INF health/monitor: 120 pods warmed up, 0 cold starts detected, traffic routed to v2.4.0</text>
+  <text x="245" y="434" fill="#A855F7" font-family="monospace" font-size="10">[18:24:02.890] INF security/mesh: TLS 1.3 mTLS tunnels established across 48 microservices</text>
+  <text x="245" y="453" fill="#94A3B8" font-family="monospace" font-size="10">[18:24:03.112] SUCCESS: Release pipeline finished in 41.2s with zero downtime</text>
+</svg>

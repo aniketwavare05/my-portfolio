@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="50" fill="url(#bg3)"/>
+  <!-- Hair bun style -->
+  <circle cx="50" cy="22" r="8" fill="#451A03"/>
+  <circle cx="50" cy="44" r="16" fill="#FDE68A"/>
+  <path d="M32 42C32 30 40 25 50 25C60 25 68 30 68 42C68 45 66 48 64 47C62 38 56 34 50 34C44 34 38 38 36 47C34 48 32 45 32 42Z" fill="#451A03"/>
+  <!-- Eyes & smile -->
+  <circle cx="44" cy="42" r="2" fill="#78350F"/>
+  <circle cx="56" cy="42" r="2" fill="#78350F"/>
+  <path d="M46 48C48.5 51 51.5 51 54 48" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+  <!-- Earrings -->
+  <circle cx="33" cy="46" r="2.5" fill="#F59E0B"/>
+  <circle cx="67" cy="46" r="2.5" fill="#F59E0B"/>
+  <!-- Blouse -->
+  <path d="M24 85C24 69 35 60 50 60C65 60 76 69 76 85" fill="#8B5CF6"/>
+</svg>

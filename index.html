@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Aniket Wavare, Computer Engineering student and Java developer from Talegaon Dabhade, Pune.">
+  <title>Aniket Wavare | Java Developer</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/avatar.svg">
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation Bar -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#about" class="logo">
+        <span class="logo-bracket">&lt;</span>Aniket<span class="logo-accent">.W</span><span class="logo-bracket"> /&gt;</span>
+      </a>
+
+      <!-- Desktop & Tablet Navigation -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link active">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons: Theme Toggle & Mobile Menu -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button (Light/Dark Mode) -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="menu-toggle-btn" id="menu-toggle" aria-label="Open mobile menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== ABOUT / HERO SECTION ==================== -->
+    <section class="section hero-section" id="about">
+      <div class="container hero-container">
+        
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span> Computer Engineering Student
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Aniket Wavare</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            Computer Engineering Student | Java Developer | Software Developer
+          </h2>
+          <p class="hero-bio">
+            Computer Engineering student with hands-on experience building 5+ projects using Java, Spring Boot, REST APIs, MySQL, and web technologies. I have a strong foundation in Data Structures &amp; Algorithms, Object-Oriented Programming, DBMS, and Software Engineering, and I’m interested in Java Full Stack Development and Software Engineering roles.
+          </p>
+          
+          <!-- Hero CTA Actions -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              Contact Me
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <div class="social-icons">
+              <a href="https://github.com/aniketwavare05" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/aniket-wavare-774682292/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a href="mailto:avyawavare45@gmail.com" class="social-link" aria-label="Send Email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Avatar / Profile Picture -->
+        <div class="hero-image-wrapper">
+          <div class="avatar-glow"></div>
+          <div class="avatar-card">
+            <img src="assets/aniket-wavare.png" alt="Portrait of Aniket Wavare" class="avatar-image" id="profile-img">
+            <div class="avatar-floating-tag">
+              <span class="tag-icon">💻</span>
+              <div class="tag-text">
+                <span class="tag-title">Java Developer</span>
+                <span class="tag-sub">Spring Boot &amp; Web</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Quick Metrics Ribbon -->
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-number">Fresher</div>
+            <div class="metric-label">Professional Experience</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number">5+</div>
+            <div class="metric-label">Projects Built</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number">8.00</div>
+            <div class="metric-label">Current CGPA / 10</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number">2027</div>
+            <div class="metric-label">Expected Graduation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Academic Background</p>
+          <h2 class="section-title">Education &amp; Credentials</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="timeline">
+          
+          <!-- Education Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="card-header">
+                <div>
+                  <span class="timeline-badge">2023 – 2027</span>
+                  <h3 class="timeline-title">Bachelor of Engineering in Computer Engineering</h3>
+                  <h4 class="timeline-institution">PCET’s Nutan Maharashtra Institute of Engineering &amp; Technology (NMIET) • Talegaon Dabhade, Pune, Maharashtra</h4>
+                </div>
+                <div class="gpa-tag">CGPA: 8.00 / 10.00</div>
+              </div>
+              <p class="timeline-desc">
+                Currently pursuing a Bachelor of Engineering in Computer Engineering, with a focus on Java Programming, Data Structures &amp; Algorithms, Database Management Systems, Software Engineering, Web Development, and Cloud Computing.
+              </p>
+              <div class="timeline-tags">
+                <span class="skill-tag">Data Structures &amp; Algorithms</span>
+                <span class="skill-tag">Database Management Systems</span>
+                <span class="skill-tag">Object-Oriented Programming</span>
+                <span class="skill-tag">Operating Systems</span>
+                <span class="skill-tag">Computer Networks</span>
+                <span class="skill-tag">Software Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="card-header">
+                <div>
+                  <span class="timeline-badge">2022 – 2023</span>
+                  <h3 class="timeline-title">Higher Secondary Certificate (HSC)</h3>
+                  <h4 class="timeline-institution">Residential High School and Junior College • Shevgaon, Maharashtra</h4>
+                </div>
+                <div class="gpa-tag">78.50%</div>
+              </div>
+              <p class="timeline-desc">
+                Completed higher secondary education with a focus on Science and Mathematics.
+              </p>
+              <div class="timeline-tags">
+                <span class="skill-tag">Physics</span>
+                <span class="skill-tag">Chemistry</span>
+                <span class="skill-tag">Mathematics</span>
+                <span class="skill-tag">English</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="card-header">
+                <div>
+                  <span class="timeline-badge">2020 – 2021</span>
+                  <h3 class="timeline-title">Secondary School Certificate (SSC)</h3>
+                  <h4 class="timeline-institution">Residential High School • Shevgaon, Maharashtra</h4>
+                </div>
+                <div class="gpa-tag">85.80%</div>
+              </div>
+              <p class="timeline-desc">
+                Completed secondary education with a focus on Mathematics, Science, and foundational academic subjects.
+              </p>
+              <div class="timeline-tags">
+                <span class="skill-tag">Mathematics</span>
+                <span class="skill-tag">Science</span>
+                <span class="skill-tag">English</span>
+                <span class="skill-tag">Social Science</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="section bg-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Capabilities &amp; Tech Stack</p>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Frontend -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon frontend-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Frontend &amp; Web Technologies</h3>
+                <p class="category-desc">Web technologies used in projects</p>
+              </div>
+            </div>
+
+            <div class="badges-container skills-list">
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">React</span>
+              <span class="badge">Bootstrap</span>
+              <span class="badge">Thymeleaf</span>
+              <span class="badge">JSON</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Backend & Database -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon backend-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Backend &amp; Database</h3>
+                <p class="category-desc">Java development, APIs &amp; databases</p>
+              </div>
+            </div>
+
+            <div class="badges-container skills-list">
+              <span class="badge">Java</span>
+              <span class="badge">Spring Boot</span>
+              <span class="badge">REST APIs</span>
+              <span class="badge">Spring Data JPA</span>
+              <span class="badge">Hibernate / JPA</span>
+              <span class="badge">JDBC</span>
+              <span class="badge">MySQL</span>
+              <span class="badge">DBMS</span>
+              <span class="badge">Microservices</span>
+              <span class="badge">Maven</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Tools & Methodologies -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon tools-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Tools &amp; Workflow</h3>
+                <p class="category-desc">Development, testing &amp; delivery tools</p>
+              </div>
+            </div>
+
+            <div class="badges-container skills-list">
+              <span class="badge">Git</span>
+              <span class="badge">GitHub</span>
+              <span class="badge">IntelliJ IDEA</span>
+              <span class="badge">Eclipse / STS</span>
+              <span class="badge">VS Code</span>
+              <span class="badge">Postman</span>
+              <span class="badge">Maven</span>
+              <span class="badge">MySQL</span>
+              <span class="badge">Docker</span>
+              <span class="badge">Jenkins</span>
+              <span class="badge">Linux CLI</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Skill Pill Badges -->
+        <div class="skills-badges-wrapper">
+          <h4 class="badges-title">Core Concepts</h4>
+          <div class="badges-container">
+            <span class="badge">Data Structures &amp; Algorithms</span>
+            <span class="badge">Object-Oriented Programming</span>
+            <span class="badge">Database Management Systems</span>
+            <span class="badge">Operating Systems</span>
+            <span class="badge">Computer Networks</span>
+            <span class="badge">Software Engineering</span>
+            <span class="badge">Cloud Computing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Hands-on Experience</p>
+          <h2 class="section-title">Projects &amp; Practice</h2>
+          <p class="section-intro">5+ projects built with Java, Spring Boot, REST APIs, MySQL, and web technologies.</p>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Areas</button>
+          <button class="filter-btn" data-filter="java">Java &amp; Backend</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="tools">Tools</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-category="java">
+            <div class="project-image-box project-type-visual project-visual-java" aria-hidden="true">
+              <span class="project-visual-mark">Java</span>
+              <span class="project-visual-caption">Spring Boot</span>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Java</span>
+                <span class="project-tag">Spring Boot</span>
+                <span class="project-tag">Maven</span>
+                <span class="project-tag">JPA</span>
+              </div>
+              <h3 class="project-title">Java &amp; Spring Boot Projects</h3>
+              <p class="project-description">Hands-on project experience with Java, Spring Boot, Spring Data JPA, Hibernate/JPA, JDBC, and Maven.</p>
+              <div class="project-footer">
+                <a href="https://github.com/aniketwavare05" target="_blank" rel="noopener noreferrer" class="project-btn outline-btn">View GitHub Profile</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="java tools">
+            <div class="project-image-box project-type-visual project-visual-api" aria-hidden="true">
+              <span class="project-visual-mark">API</span>
+              <span class="project-visual-caption">REST | MySQL</span>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">REST APIs</span>
+                <span class="project-tag">MySQL</span>
+                <span class="project-tag">Postman</span>
+                <span class="project-tag">Microservices</span>
+              </div>
+              <h3 class="project-title">API &amp; Database Projects</h3>
+              <p class="project-description">Built projects using REST APIs and MySQL, with experience in database management and API testing.</p>
+              <div class="project-footer">
+                <a href="https://github.com/aniketwavare05" target="_blank" rel="noopener noreferrer" class="project-btn outline-btn">View GitHub Profile</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-image-box project-type-visual project-visual-web" aria-hidden="true">
+              <span class="project-visual-mark">&lt;/&gt;</span>
+              <span class="project-visual-caption">Web Technologies</span>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">React</span>
+              </div>
+              <h3 class="project-title">Web Development Projects</h3>
+              <p class="project-description">Web project experience with HTML, CSS, JavaScript, React, Bootstrap, Thymeleaf, and JSON.</p>
+              <div class="project-footer">
+                <a href="https://github.com/aniketwavare05" target="_blank" rel="noopener noreferrer" class="project-btn outline-btn">View GitHub Profile</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-image-box project-type-visual project-visual-web" aria-hidden="true">
+              <span class="project-visual-mark">UI/UX</span>
+              <span class="project-visual-caption">NexusFlow SaaS</span>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">HTML5</span>
+                <span class="project-tag">CSS Grid</span>
+                <span class="project-tag">Flexbox</span>
+                <span class="project-tag">Responsive</span>
+              </div>
+              <h3 class="project-title">Task 2: Responsive Landing Page</h3>
+              <p class="project-description">Fully responsive homepage for fictional cloud startup NexusFlow featuring CSS Grid Bento layout, Flexbox navigation, dark/light theme, testimonials, and interactive pricing.</p>
+              <div class="project-footer">
+                <a href="landing-page/index.html" class="project-btn outline-btn" style="background: var(--primary-color); color: #fff; border-color: var(--primary-color);">Open Landing Page &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section bg-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Let's Connect</p>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          
+          <!-- Contact Details / Info Card -->
+          <div class="contact-info-card">
+            <h3 class="contact-info-title">Let’s connect</h3>
+            <p class="contact-info-desc">
+              I’m a Computer Engineering student seeking opportunities in Java Development, Software Development, and Full Stack Development. Feel free to connect by email or through my professional profiles.
+            </p>
+
+            <div class="contact-methods">
+              
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="method-name">Email</h4>
+                  <a href="mailto:avyawavare45@gmail.com" class="method-val">avyawavare45@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="method-name">Location</h4>
+                  <span class="method-val">Talegaon Dabhade, Pune, Maharashtra</span>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="method-name">Experience</h4>
+                  <span class="method-val">Entry-level | 0 years professional experience</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Social Links in Contact Info -->
+            <div class="contact-socials-box">
+              <span class="social-sub">Connect with me:</span>
+              <div class="social-icons">
+                <a href="https://github.com/aniketwavare05" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                <a href="https://www.linkedin.com/in/aniket-wavare-774682292/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form (Fully styled & interactive with JS feedback) -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Get in touch</h3>
+            
+            <!-- Demo notice shown after validation; this form does not send messages. -->
+            <div class="form-alert" id="form-alert" role="status" aria-live="polite" style="display: none;">
+              <div class="alert-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+              </div>
+              <div class="alert-content">
+                <strong class="alert-heading">Demo form only</strong>
+                <span class="alert-text" id="form-alert-msg">This form does not send or store messages. Connect a form service before publishing.</span>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Your Name <span class="required">*</span></label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Jane Doe" required>
+                  <span class="input-error-msg" id="name-error">Please enter your name.</span>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. jane@example.com" required>
+                  <span class="input-error-msg" id="email-error">Please provide a valid email address.</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject <span class="required">*</span></label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="Project Inquiry / Job Opportunity" required>
+                <span class="input-error-msg" id="subject-error">Please enter a subject.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message <span class="required">*</span></label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Write your message details here..." required></textarea>
+                <span class="input-error-msg" id="message-error">Please write a message before sending.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                <span class="btn-text">Send Message</span>
+                <svg class="send-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#about" class="logo">
+          <span class="logo-bracket">&lt;</span>Aniket<span class="logo-accent">.W</span><span class="logo-bracket"> /&gt;</span>
+        </a>
+        <p class="footer-copy">
+          &copy; <span id="current-year">2026</span> Aniket Wavare. All rights reserved.<br>
+          Crafted with HTML5, CSS3, &amp; modern JavaScript.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-heading">Navigation</h4>
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-socials-col">
+        <h4 class="footer-heading">Social</h4>
+        <div class="social-icons">
+          <a href="https://github.com/aniketwavare05" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+          <a href="https://www.linkedin.com/in/aniket-wavare-774682292/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+          <a href="mailto:avyawavare45@gmail.com" class="social-link" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll to top" title="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
